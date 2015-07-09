@@ -1,0 +1,31 @@
+{
+	"name": "swiggles/laravel-hashids",
+	"description": "Hashids for Laravel",
+	"license": "MIT",
+	"keywords": ["laravel", "hashids", "hashid"],
+	"authors": [
+		{
+			"name": "Sam Wiggins"
+		}
+	],
+	"require": {
+		"php": ">=5.5",
+		"illuminate/support": "5.0.*|5.1.*",
+		"hashids/hashids": "~1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Swiggles\\Hashids\\": "src/"
+		}
+	},
+	"config": {
+	    "preferred-install": "dist"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "0.1.0-dev"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
